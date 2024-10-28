@@ -21,3 +21,21 @@ variable "mysql_sg_tags" {
         component = "mysql"
     }
 }
+
+
+variable "backend_sg_tags" {
+    default = {}
+}
+
+variable "frontend_sg_tags" {
+    default = {}
+}
+
+variable "bastion_sg_tags" {
+    default = {}
+
+}
+
+variable "ansible_sg_tags" {
+    default = {}
+}
